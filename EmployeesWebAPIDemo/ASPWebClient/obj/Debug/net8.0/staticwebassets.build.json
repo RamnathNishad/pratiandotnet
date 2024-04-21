@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "Vq/cK3SdoBpeNSkCAX6RpV5HRwrUXXLMJB5cbnU5qd0=",
+  "Source": "ASPWebClient",
+  "BasePath": "_content/ASPWebClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPWebClient\\wwwroot",
+      "Source": "ASPWebClient",
+      "ContentRoot": "D:\\PratianDemos\\EmployeesWebAPIDemo\\ASPWebClient\\wwwroot\\",
+      "BasePath": "_content/ASPWebClient",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\PratianDemos\\EmployeesWebAPIDemo\\ASPWebClient\\wwwroot\\CustomerPage.html",
+      "SourceId": "ASPWebClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PratianDemos\\EmployeesWebAPIDemo\\ASPWebClient\\wwwroot\\",
+      "BasePath": "_content/ASPWebClient",
+      "RelativePath": "CustomerPage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CustomerPage.html"
+    },
+    {
+      "Identity": "D:\\PratianDemos\\EmployeesWebAPIDemo\\ASPWebClient\\wwwroot\\Home.html",
+      "SourceId": "ASPWebClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PratianDemos\\EmployeesWebAPIDemo\\ASPWebClient\\wwwroot\\",
+      "BasePath": "_content/ASPWebClient",
+      "RelativePath": "Home.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Home.html"
+    }
+  ]
+}

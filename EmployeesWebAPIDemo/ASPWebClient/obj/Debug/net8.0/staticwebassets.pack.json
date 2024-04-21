@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PratianDemos\\EmployeesWebAPIDemo\\ASPWebClient\\wwwroot\\CustomerPage.html",
+      "PackagePath": "staticwebassets\\CustomerPage.html"
+    },
+    {
+      "Id": "D:\\PratianDemos\\EmployeesWebAPIDemo\\ASPWebClient\\wwwroot\\Home.html",
+      "PackagePath": "staticwebassets\\Home.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASPWebClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ASPWebClient.props",
+      "PackagePath": "build\\ASPWebClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPWebClient.props",
+      "PackagePath": "buildMultiTargeting\\ASPWebClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ASPWebClient.props",
+      "PackagePath": "buildTransitive\\ASPWebClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

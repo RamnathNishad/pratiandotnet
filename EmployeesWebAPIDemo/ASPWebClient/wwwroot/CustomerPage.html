@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function getCustomers() {
+            //write code to access web api get all customers
+            fetch("http://localhost:5031/api/Customers")
+                .then(res => res.json())
+                .then(data => {
+                    let str = "<table>";
+                    data.forEach((r) => {
+                        str += "<tr><td>" + r.id + "</td><td>" + r.name + "</td><td>" + r.city + "</td><td>" + r.state + "</td><td>" + r.country + "</td></tr>";
+                    });
+                    document.getElementById("x").innerHTML = str;
+                });
+        }
+    </script>
+</head>
+<body>
+    <h1>Fetch calls to API using JavaScript</h1><hr />
+    <input type="button" value="GetCustomers" onclick="getCustomers()" />
+    <p id="x"></p>
+</body>
+</html>
