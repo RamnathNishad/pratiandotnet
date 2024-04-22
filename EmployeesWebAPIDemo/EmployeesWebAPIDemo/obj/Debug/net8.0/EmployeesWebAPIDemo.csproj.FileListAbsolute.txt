@@ -68,3 +68,4 @@ D:\PratianDemos\EmployeesWebAPIDemo\EmployeesWebAPIDemo\obj\Debug\net8.0\refint\
 D:\PratianDemos\EmployeesWebAPIDemo\EmployeesWebAPIDemo\obj\Debug\net8.0\EmployeesWebAPIDemo.pdb
 D:\PratianDemos\EmployeesWebAPIDemo\EmployeesWebAPIDemo\obj\Debug\net8.0\EmployeesWebAPIDemo.genruntimeconfig.cache
 D:\PratianDemos\EmployeesWebAPIDemo\EmployeesWebAPIDemo\obj\Debug\net8.0\ref\EmployeesWebAPIDemo.dll
+D:\PratianDemos\EmployeesWebAPIDemo\EmployeesWebAPIDemo\obj\Debug\net8.0\EmployeesWebAPIDemo.sourcelink.json

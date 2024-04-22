@@ -59,6 +59,8 @@ namespace WebAPI_EFCodeFirst
                 );
 
 
+            builder.Services.AddScoped<GlobalExceptionHandler>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -68,12 +70,15 @@ namespace WebAPI_EFCodeFirst
                 app.UseSwaggerUI();
             }
 
+           
+            app.UseAuthentication(); //this sequence should be same
             app.UseAuthorization();
-            app.UseAuthentication();
 
             app.MapControllers();
 
             app.UseCors("clients-allowed");
+
+            app.UseMiddleware<GlobalExceptionHandler>();
 
             app.Run();
         }

@@ -135,3 +135,4 @@ D:\PratianDemos\EmployeesWebAPIDemo\WebAPI_EFCodeFirst\obj\Debug\net8.0\WebAPI_E
 D:\PratianDemos\EmployeesWebAPIDemo\WebAPI_EFCodeFirst\obj\Debug\net8.0\WebAPI_EFCodeFirst.genruntimeconfig.cache
 D:\PratianDemos\EmployeesWebAPIDemo\WebAPI_EFCodeFirst\obj\Debug\net8.0\ref\WebAPI_EFCodeFirst.dll
 D:\PratianDemos\EmployeesWebAPIDemo\WebAPI_EFCodeFirst\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\PratianDemos\EmployeesWebAPIDemo\WebAPI_EFCodeFirst\obj\Debug\net8.0\WebAPI_EFCodeFirst.sourcelink.json

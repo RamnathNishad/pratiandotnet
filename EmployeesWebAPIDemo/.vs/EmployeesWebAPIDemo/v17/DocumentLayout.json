@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\PratianDemos\\EmployeesWebAPIDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|d:\\pratiandemos\\employeeswebapidemo\\webapi_efcodefirst\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|solutionrelative:webapi_efcodefirst\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|d:\\pratiandemos\\employeeswebapidemo\\webapi_efcodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|solutionrelative:webapi_efcodefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|d:\\pratiandemos\\employeeswebapidemo\\webapi_efcodefirst\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|solutionrelative:webapi_efcodefirst\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|d:\\pratiandemos\\employeeswebapidemo\\webapi_efcodefirst\\models\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6268B1-A670-4DBE-B0D4-74BA6172F365}|WebAPI_EFCodeFirst\\WebAPI_EFCodeFirst.csproj|solutionrelative:webapi_efcodefirst\\models\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
-              "ToolTip": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAywEIAAABbAAAA",
+              "DocumentIndex": 2,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Models\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "WebAPI_EFCodeFirst\\Models\\GlobalExceptionHandler.cs",
+              "ToolTip": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Models\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "WebAPI_EFCodeFirst\\Models\\GlobalExceptionHandler.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T07:17:20.955Z",
+              "WhenOpened": "2024-04-22T06:06:12.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "WebAPI_EFCodeFirst\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:04:30.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI_EFCodeFirst\\Program.cs",
               "ToolTip": "D:\\PratianDemos\\EmployeesWebAPIDemo\\WebAPI_EFCodeFirst\\Program.cs",
               "RelativeToolTip": "WebAPI_EFCodeFirst\\Program.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAIwEYAAAAjAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T07:07:22.708Z",
+              "WhenOpened": "2024-04-22T06:01:36.615Z",
               "EditorCaption": ""
             }
           ]

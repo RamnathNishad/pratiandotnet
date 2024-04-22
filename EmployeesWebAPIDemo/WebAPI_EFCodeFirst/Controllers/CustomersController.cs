@@ -24,6 +24,9 @@ namespace WebAPI_EFCodeFirst.Controllers
         [Authorize]
         public IEnumerable<Customer> Get()
         {
+            //int n1 = 100, n2 = 0;
+            //int result = n1 / n2;
+
             return dal.GetAllCustomers();
         }
 
