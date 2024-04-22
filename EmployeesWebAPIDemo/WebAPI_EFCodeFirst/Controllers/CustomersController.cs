@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using WebAPI_EFCodeFirst.Models;
 
@@ -21,7 +23,7 @@ namespace WebAPI_EFCodeFirst.Controllers
 
         // GET: api/<CustomersController>
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles ="Admin")]
         public IEnumerable<Customer> Get()
         {
             //int n1 = 100, n2 = 0;
@@ -32,6 +34,7 @@ namespace WebAPI_EFCodeFirst.Controllers
 
         // GET api/<CustomersController>/5
         [HttpGet("{id}")]
+        [Authorize(Roles = "Guest")]
         public Customer Get(int id)
         {
             return dal.GetCustomerById(id);
@@ -59,8 +62,8 @@ namespace WebAPI_EFCodeFirst.Controllers
         }
 
         [HttpPost]
-        [Route("Authenticate/{username}/{password}")]
-        public string Authenticate(string username,string password)
+        [Route("Authenticate/{username}/{password}/{role}")]
+        public string Authenticate(string username,string password,string role)
         {
             if(username=="Ramnath" && password=="admin123") //validate credentials from DAL layer
             {
@@ -69,15 +72,20 @@ namespace WebAPI_EFCodeFirst.Controllers
 
                 var tokenKey = Encoding.UTF8.GetBytes("abcdefghijklmnopqrstuvwxyzabcdefghij");
 
-                var tokenDescriptor = new SecurityTokenDescriptor
-                {
-                    Issuer = "pratian",
-                    Audience = "pratian",
-                    Expires = DateTime.UtcNow.AddMinutes(10),
-                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
+                var credentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature);
+
+                var claims = new List<Claim>
+                {                    
+                    new Claim(ClaimTypes.Role,role),
                 };
 
-                var token = tokenHandler.CreateToken(tokenDescriptor);
+                var token = new JwtSecurityToken(
+                    "pratian",
+                    "pratian",
+                    claims,
+                    expires: DateTime.UtcNow.AddMinutes(10),
+                    signingCredentials: credentials
+                );
 
                 return tokenHandler.WriteToken(token);
             }

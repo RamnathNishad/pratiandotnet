@@ -56,8 +56,7 @@ namespace WebAPI_EFCodeFirst
                             IssuerSigningKey = new SymmetricSecurityKey(bytesKey)
                         };
                     }
-                );
-
+                );   
 
             builder.Services.AddScoped<GlobalExceptionHandler>();
 
